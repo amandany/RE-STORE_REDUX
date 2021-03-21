@@ -19,20 +19,20 @@ const booksError = (error) => {
 }
 
 export const bookAddedToCart = (bookId) => {
-    return{
+    return {
         type: 'BOOK_ADDED_TO_CART',
         payload: bookId
     }
 }
 
 export const bookRemovedFromCart = (bookId) => {
-    return{
+    return {
         type: 'BOOK_REMOVED_FROM_CART',
         payload: bookId
     }
 }
 export const allBooksRemovedFromCart = (bookId) => {
-    return{
+    return {
         type: 'ALL_BOOKS_REMOVED_FROM_CART',
         payload: bookId
     }
